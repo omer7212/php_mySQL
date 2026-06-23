@@ -26,7 +26,7 @@ $x=3.14;
 echo gettype($x);
 
 
-echo "<brr> Version of PHP:".phpversion();
+echo "<br> Version of PHP:".phpversion();
 ?>
 
 
@@ -81,5 +81,47 @@ if($number %2 ==0){
  }
 
 echo odd_or_even(77);
+
+?>
+
+
+
+
+<?php
+
+function odd_even($nr){
+
+if($nr%2==0){
+echo "Even"
+
+}else{
+echo "Odd"
+
+}
+
+}
+for($i=100;$i<105;$i++){
+
+        echo "$i is:";
+        odd_even($i);
+        echo "<br>";
+}
+
+$fruits=["Banana","Apple","Mango","Orange","Pear",]
+
+    foreach($fruits as $fruit){
+        echo "$fruit <br>"
+    }
+    echo count($fruits);
+for($i=0;$i< count($fruits);$i++){
+    echo $fruits[$i]."<br>";
+}
+
+
+
+
+
+
+
 
 ?>
