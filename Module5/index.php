@@ -28,3 +28,68 @@ echo $grades["History"];
 
 
 ?>
+
+
+
+
+
+
+
+
+
+
+<?php
+
+
+$cars = array(
+    array("Volkswagen", "Golf 8", 2022),
+    array("Audi", "A4", 2021),
+    array("BMW", "M4", 2023),
+    array("Mercedes-Benz", "C-Class", 2020),
+    array("Porsche", "911", 2024),
+);
+
+
+for ($row = 0; $row < count($cars); $row++) {
+    echo "<ul>"; 
+    
+    
+    for ($column = 0; $column < count($cars[$row]); $column++) {
+        echo "<li>" . $cars[$row][$column] . "</li>";
+    }
+    
+    echo "</ul>"; 
+}
+
+
+
+?>
+
+
+
+
+
+
+
+
+
+
+
+
+
+?>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
