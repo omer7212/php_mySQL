@@ -9,7 +9,7 @@ include("header.php");
     <h1 class="h3 mb-3 font-weight-normal">Please sign in</h1>
 
 
-        <label for="inputEmail" class="sr-only">Username</label>
+        <label for="InputEmail" class="sr-only">Username</label>
         <input type="text" id="inputEmail" class="form-control" placeholder="Username" name="username" required autofocus>
 
 

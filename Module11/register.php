@@ -32,7 +32,7 @@ if(isset($_POST['submit'])){
 
 
         else{
-            $sql="INSERT INTO user_login(name,surname,username,email,password)VALUES ('$name','$surname','$username','$email',$hashed_password')";
+            $sql="INSERT INTO user_login(name,surname,username,email,password) VALUES ('$name','$surname','$username','$email','$hashed_password')";
             
 
             $insertSql=$conn->prepare($sql);
