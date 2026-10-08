@@ -6,7 +6,7 @@ $dbname='movie_project';
 
 
 try{
-    $conn=new PDO("mysql:host=$host;dbname=$movie_project",'root',"");
+    $conn = new PDO("mysql:host=$server;dbname=$dbname", $u, $ass);
     echo "Connected succesfully!";
 
 

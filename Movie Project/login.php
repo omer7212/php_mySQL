@@ -7,17 +7,7 @@
     
 </head>
 <body>
-    <main class="form-signin"> 
-        <form action="loginLogic.php"></form>
-        <h1 class="h3 mb 3 fw-normal"></h1>
-        
     
-
-
-
-
-
-</main>
 
 
 
