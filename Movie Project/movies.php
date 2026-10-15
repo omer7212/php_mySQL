@@ -52,7 +52,7 @@ placeholder="Search" aria-label="Search">
                         </li>
 
 
-                <?php}?>
+                <?php } ?>
                         <li class="nav-item">
                             <a href="dashboard.php" class="nav-link">
                                 <span data-feather="file"></span>Home</a>

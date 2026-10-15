@@ -4,7 +4,7 @@ include_once('config.php');
 $movie_id=$_GET['movie_id'];
 $sql="SELECT * FROM movies";
 $selectedMovie=$conn->prepare("SELECT * FROM movies WHERE  id=$movie_id");
-$selectedMovies->execute();
+$selectedMovies->execute()
 
 $movie_data=$selectedMovies->fetch();
 

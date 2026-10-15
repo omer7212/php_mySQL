@@ -1,6 +1,6 @@
 <?php 
 session_start();
-include_once("config.php")
+include_once("config.php");
 
 if(empty($_SESSION['username'])){
     header("Location: login.php");
@@ -67,7 +67,7 @@ placeholder="Search" aria-label="Search">
                         </li>
 
 
-                <?php}?>
+                <?php }?>
                         <li class="nav-item">
                             <a href="dashboard.php" class="nav-link">
                                 <span data-feather="file"></span>Home</a>
@@ -105,7 +105,7 @@ placeholder="Search" aria-label="Search">
                     </tr>
                 </thead>
             <tbody>
-                <?php foreach($users as $oneUser){ ?>
+                <?php foreach($users as $oneUser){?>
                 <tr>
                 <td><?php echo $oneUser['id']?></td>
                 <td><?php echo $oneUser['emri']?></td>
@@ -120,7 +120,7 @@ placeholder="Search" aria-label="Search">
              </tbody>
             </table>
         </div>
-<?php}else{} ?>
+<?php } else{} ?>
 
 
 </main>

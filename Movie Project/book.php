@@ -10,7 +10,7 @@ if(isset($_POST['submit'])){
 }
 if(empty($notickets)||empty($data)||empty($seat)){
     echo "Fill all fields!";
-    header("refresh:2; url=details.php?movie_id=$movie_id");
+    header("refresh:2; url=details.php?movie_id=$movie_id")
 }
 
 $sql="INSERT INTO bookings(movieID,userID,[data],nr_tiketave,ulesja VALUES ($movie_id,$user_id,'$data - $time','$notickets','$seat')";
